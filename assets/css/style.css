@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 @import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Bungee);
 
 
 body {
@@ -9,6 +11,7 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+  /* background-size: cover; */
 }
 
 * {
@@ -19,7 +22,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 990px;
   margin: 0 auto;
   clear: both;
 }
@@ -38,7 +41,7 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: 'Cherry Swash';
+  font-family: 'Lobster';
   font-weight: 700;
   color: rgb(4, 4, 34);
 
@@ -47,14 +50,14 @@ h3 {
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
-  line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  /* line-height: 49px;
+  border-bottom: 3px solid #dddddd; */
 }
 
 h2,
 h3 {
   font-size: 22px;
-  font-family: 'Dancing Script';
+  font-family: 'Lobster';
 
 }
 
@@ -63,6 +66,7 @@ h3 {
 header {
   position: fixed;
   z-index: 99;
+  
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
@@ -76,9 +80,9 @@ header {
 
 #logo {
   float: left;
-  width: 300px;
+  width: 320px;
   height: 90px;
-  font-family: 'Pacifico';
+  font-family: 'Lobster';
   font-size: 40px;
   font-weight: 700;
   line-height: 90px;
@@ -148,7 +152,7 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: rgb(231, 231, 231);
+  background: rgb(231, 231, 231); 
   border: 1px solid #dddddd;
   border-radius: 25px;
 }
