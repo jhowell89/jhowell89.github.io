@@ -1,59 +1,504 @@
 <!doctype html>
-<html lang="en-us">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="main.css">
+   
 
-<head>
-  <meta charset="UTF-8">
-  <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- <script defer src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script> -->
+   </head>
+  <body>
+      <header>
+          <div class="menu-toggler">
+              <div class="bar half start"></div>
+              <div class="bar"></div>
+              <div class="bar half end"></div>
+          </div>
+          <nav class="top-nav">
+              <ul class="nav-list">
+                  <li>
+                      <a href="index.html" class="nav-link">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+              </ul>
+          </nav>
+          <!-- <canvas id="c"></canvas> -->
+          <div class="landing-text" data-aos="fade-up" data-aos-delay="2000" data-aos-easing="ease-in-quad">
+        
+              <h1>Jarez Howell</h1>
+              <h6>UI | UX Designer and Back-End Web Developer</h6>
+          </div>
+      </header>
+      <section class="about" id="about">
+          <div class="container">
+              <div class="profile-image" data-aos="fade-right" data-aos-delay="300">
+              <img src="images/kids.jpg" alt="">
+          </div>
+          <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+              <div class="about-heading">
+                  <h1>About</h1>
+                  <h6>Myself</h6>
+             </div>
+                 <p> 
+                    My name is Jarez Howell and I am a self motivated freelance full-stack web designer/developer 
+                    who specializes in creating dynamic and repsonsive web pages. 
+                    I'm a family man that's married to a beautiful woman with 4 amazing (yet busy) children that continues 
+                    to push me to achieve my goals as a creative developer. I'm currently
+                    on a path of continious learning, studying, exploring, and creating applications for the users to enjoy.
+                    The qoute that I am living by today is
+                    "Success is not final; failure is not fatal: It is the courage to continue that counts."
 
-<!-- <script defer src="https://www.gstatic.com/firebasejs/4.8.2/firebase-app.js"></script>
-<script defer src="https://www.gstatic.com/firebasejs/4.8.2/firebase-firestore.js"></script>
+                    -- Winston S. Churchill
+                 </p>
+                   <div class="social-media">
+                     <ul class="nav-list">
+                        <li>
+                            <a href="https://github.com/jhowell89" class="icon-link">
+                                <i class="fab fa-github"></i>
+                              </a>
+                              </li>
+                              <li>
+                                  <a href="https://stackoverflow.com/story/jhowell89" class="icon-link">
+                                      <i class="fab fa-stack-overflow"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="https://www.linkedin.com/mwlite/me" class="icon-link">
+                                      <i class="fab fa-linkedin"></i>
+                                  </a>
+                              </li>
+                            </ul>
+                  </div>
+             </div>
+          </div>
+      </section>
+      <section class="services" id="services">
+          <div class="contrainer">
+              <div class="section-heading">
+                  <h1>Services</h1>
+                  <h6>What I can do for you</h6>
+              </div>
+              <div class="my-skills">
+                  <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                  <div class="icon-container">
+                      <i class="fas fa-layer-group"></i>
+                  </div>
+                  <h1>Web Design</h1>
+                  <p>Visual Design to improve the look and 
+                     enhance the feel of the site usin photoshop, canva
+                     The UX of a website is the feeling and experience 
+                     that the visitor has when browsing that website.
+                     Manage configuration changes to fields, workflows, 
+                     roles/permissions, page layouts, custom objects, 
+                     custom record types, reports and dashboards. </p>
+                  </div>
+                  <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Web Development</h1>
+                    <p>Build, Design, and Debug Responsive Full Stack Web Applications, React, 
+                       and mobile apps using JavaScript, bootstrap, reactstrap, react-dom, HTML, CSS, 
+                       and jQuery. Manage data in databases 
+                       using languages such as SQL and NoSQL, MongoDB, Firebase, create API's and others.
+                       Also build JavaScript apps outside of the browser using Node.js for 
+                       a more dynamic experience.  </p>
+                    </div>
+                    <div class="skill"data-aos="fade-in" data-aos-delay="900" >
+                        <div class="icon-container">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h1>Quality Assurance</h1>
+                        <p>Identify, record, document, and track bugs.
+                            Design, develop and execute automation scripts.
+                            Constantly improve software test process using 
+                            automation and emerging technology.
+                            Manage the suite of manual and automated test cases.</p>
+                        </div>
+              </div>
+          </div>
+      </section>
 
-// ...
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <img src="images/clicky.png" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>MERN Stack</h6>
+                    <h1>Clicky Game</h1>
+                    <p>
+                        For this app, I created a memory game with React. 
+                        This assignment required me to break up my application's UI into components,
+                         manage component state, and respond to user events
+                    </p>
+                    <a href="https://github.com/jhowell89/Clicky-Game" class="cta">View Code</a> 
+                    <br>  
+                    <a href="https://howells-game.herokuapp.com/" class="ctam">Open the App!</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900" >
+                    <h6>Front End</h6>
+                    <h1>Train schedule App</h1>
+                    <p>
+                        This is a train schedule application that incorporates Firebase to host arrival 
+                        and departure data. The app retrieves and manipulates this information with Moment.js. 
+                        This website provide up-to-date information about various trains, 
+                        namely their arrival times and how many minutes remain until they arrive at their station.
+                    </p>
+                    <a href="https://github.com/jhowell89/Train-Scheduler" class="cta">View Code</a>
+                    <br>  
+                    <a href="https://jhowell89.github.io/Train-Scheduler/" class="ctam">Open the App!</a>
+                </div>
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                    <img src="images/trainpic.png" alt="">
+                </div>
+               </div>
+               <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                    <img src="images/crystal.png" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                    <h6>Front End</h6>
+                    <h1>Crystal Collector Game</h1>
+                    <p>
+                        An interactive web browsers game that dynamically updates the HTML with the jQuery library.
+                        When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
+                        Click "View Code" for more directions and details.
+                        Enjoy the game!
+                    </p>
+                    <a href="https://github.com/jhowell89/unit-4-game" class="cta">View Code</a>
+                    <br>
+                    <a href="https://jhowell89.github.io/unit-4-game/" class="ctam">Open The App!</a>
+                </div>
+               </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900" >
+                        <h6>Node</h6>
+                        <h1>Friend Finder App</h1>
+                        <p>
+                            This app demonstrates Node and Express with jQuery and AJAX. 
+                            Overall purpose is a web app designed to help find a compatible friend. 
+                            Set up web servers with Node.js using Express.
+                        </p>
+                        <a href="https://github.com/jhowell89/friend-finder" class="cta">View Code</a>
+                        <br>  
+                        <a href="https://aqueous-citadel-56633.herokuapp.com/" class="ctam">Open the App!</a>
+                    </div>
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                        <img src="images/friends.png" alt="">
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                 <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                     <img src="images/kitchen.png" alt="">
+                 </div>
+                 <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                     <h6>Front End</h6>
+                     <h1>Foodoku</h1>
+                     <p>
+                        A site whose main function is to take ingredients from a user 
+                        and then return to them a list of recipes, that will include links with full instructions,
+                         and the nutritional value of said recipes using two seperate APIs
+                     </p>
+                     <a href="https://github.com/jhowell89/Project-1" class="cta">View Code</a>
+                     <br>
+                     <a href="https://jhowell89.github.io/Project-1/" class="ctam">Open The App!</a>
+                 </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900" >
+                        <h6>Handlebars</h6>
+                        <h1>Beer Blog App</h1>
+                        <p>
+                            This app uses handlebars that allows users to input what kind of beer 
+                            they're drinking, comment on it, and rate it in hopes that others 
+                            will see it and get an idea of beers they might enjoy.
+                        </p>
+                        <a href="https://github.com/jhowell89/Project2" class="cta">View Code</a>
+                        <br>  
+                        <a href="https://unccodingcampproject2.herokuapp.com/" class="ctam">Open the App!</a>
+                    </div>
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                        <img src="images/beer.png" alt="">
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                 <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                     <img src="images/electroworld.png" alt="">
+                 </div>
+                 <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                     <h6>React</h6>
+                     <h1>electroworld (Ecommerce)</h1>
+                     <p>
+                        A small online electronics store with the best deals.
+                        To order a product you must create a login ID and password with at least eight characters. 
+                        After you have created a login you can now add products to your cart.
+                        This is a React application using mongoDB for storage, reactstrap, bootstrap and react-dom.
+                     </p>
+                     <a href="https://github.com/jhowell89/Project-3" class="cta">View Code</a>
+                     <br>
+                     <a href="https://aqueous-retreat-28024.herokuapp.com/" class="ctam">Open The App!</a>
+                 </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900" >
+                        <h6>Sequelize</h6>
+                        <h1>Eat-Da-Burger</h1>
+                        <p>
+                            Eat-Da-Burger! is a restaurant app that lets users input the
+                            names of burgers they'd like to eat. Whenever a user submits a burger's name, 
+                            the app will display the burger on the left side of the page -- waiting to be devoured.
+                            Each burger in the waiting area also has a Devour it! button. When the user clicks it, 
+                            the burger will move to the right side of the page with customer.
+                        </p>
+                        <a href="https://github.com/jhowell89/Burger" class="cta">View Code</a>
+                        <br>  
+                        <a href="https://sheltered-anchorage-90378.herokuapp.com/" class="ctam">Open the App!</a>
+                    </div>
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                        <img src="images/burger.png" alt="">
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                 <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                     <img src="images/trivia1.png" alt="">
+                 </div>
+                 <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                     <h6>Front End</h6>
+                     <h1>Trivia Game</h1>
+                     <p>
+                        A JavaScript trivia game that uses JavaScript timing events for 
+                        each question and jQuery to dynamically generate HTML. The game shows only one question 
+                        at a time, and the question is displayed until the player answers it or their time runs out.
+                        For more information on how the game works click the "View Code" link. Enjoy!
+                     </p>
+                     <a href="https://github.com/jhowell89/TriviaGame" class="cta">View Code</a>
+                     <br>
+                     <a href="https://jhowell89.github.io/TriviaGame/" class="ctam">Open The App!</a>
+                 </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900" >
+                        <h6>API's</h6>
+                        <h1>Gimme giphy</h1>
+                        <p>
+                            This app uses the GIPHY API and jQuery to make a dynamic web page that populates 
+                            with gifs of your choice. Try it out!
+                        </p>
+                        <a href="https://github.com/jhowell89/GifTastic" class="cta">View Code</a>
+                        <br>  
+                        <a href="https://jhowell89.github.io/GifTastic/" class="ctam">Open the App!</a>
+                    </div>
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                        <img src="images/giphy.png" alt="">
+                    </div>
+                <!-- </div>
+                <div class="portfolio-item">
+                 <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                     <img src="images/trivia1.png" alt="">
+                 </div>
+                 <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                     <h6>Front End</h6>
+                     <h1></h1>
+                     <p>
+                        A JavaScript trivia game that uses JavaScript timing events for 
+                        each question and jQuery to dynamically generate HTML. The game shows only one question 
+                        at a time, and the question is displayed until the player answers it or their time runs out.
+                        For more information on how the game works click the "View Code" link. Enjoy!
+                     </p>
+                     <a href="https://github.com/jhowell89/TriviaGame" class="cta">View Code</a>
+                     <br>
+                     <a href="https://jhowell89.github.io/TriviaGame/" class="cta">Open The App!</a>
+                 </div> -->
+            </div>
+               
+        </div>
+      </section>
 
-<script defer src="./init-firebase.js"></script> -->
-<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
 
-</head>
+        <section class="Experience" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Development Experience</h1>
+                    <h6>Experience that I have</h6>
+                </div>
+                <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                    <ul>
+                        <li class="date" data-date="2017 - present">
+                            <h1>Freelance Web Developer</h1>
+                            <p>
+                                
+                            </p>
+                        </li>
+                        <li class="date" data-date="2019 - 2020">
+                            <h1>UNC Chapel Hill Coding Bootcamp</h1>
+                            
+                                
+                                    <li>Built frontend websites from both scrath and by utilizing 
+                                        frontend frameworks such as bootstrap, react and reactstrap.</li>
+                                    <li> Created full stack Single Page Applications with AJAX communication.</li>
+                                    <li> Worked independently or in a group on complex projects throughout the entire development lifecycle.</li>
+                                    <li> Created RESTful APIs utilizing JSON as a data format.</li>
+                                    <li>Consume RESTful APIs properly utilizing REST verbs. </li>
+                                    <li> Created web applications and services in C# using ASP.NET</li>
+                                    <li> Created session-based applications utilizing user authentication schemes that are well-known and widely used</li>
+                                    <li>Communicated the basics of serving a web page and how the browser renders code.</li>
+                                    <li>Implemented complex logical conditions to meet an objective.</li>
+                                   </li>
+                    </ul>
+                </div>
+                <div class="section-headings">
+                    <h1>Skills</h1>
+                    <h6>Skills that I have</h6>
+                </div>
+                <div class="timelines" data-aos="fade-down" data-aos-delay="300">
+                    <ul>
+                      <!-- <li class="date" data-date="2019 - 2020"> -->
+                            <h1> Computer Science applied to JavaScript</h1>
+                            <li> Algorithms (Searches, Sorts)</li>
+                            <li> Efficiency </li>
+                            <li> Time Complexity </li>
+                            <li> Big O Notation </li>
+                            <li> Data Structures </li>
+                            <h1> Browser Based Technologies</h1>
+                            <li>  HTML</li>
+                            <li>  CSS</li>
+                             <li> JavaScript</li>  
+                              <li>  jQuery</li> 
+                               <li> Responsive Design</li> 
+                               <li> Bootstrap</li> 
+                               <li> Handlebars</li>
+                                <li> Local Storage, Session Storage, IndexedDB</li>
+                               <li> React.js </li> 
+                               <h1>API Interaction </h1>
+                               <li> API</li>
+                               <li> JSON</li>
+                               <li> AJAX</li>
+                               <h1>Deployement/Command-Line Fundamentals</h1>
+                               <li> Heroku</li>
+                                <li> Git</li>
+                                <li> GitHub Pages</li>
+                                <h1>C#</h1>
+                                <li> ASP.NET</li>
+                                <h1>Databases</h1>
+                                <li> MySQL</li>
+                                <li> MongoDB</li>
+                                <h1>Server Side Development</h1>
+                                <li> Node.js</li>
+                                <li> Express</li>
+                                <li> User authentication</li>
+                                <li> Progressive Web Applications (PWAs)</li>
+                                <li> MERN Stack (MongoDB, Express.js, React.js, Node.js</li>
+                                <h1> Quality Assurance</h1>
+                                <li> Unit Testing</li>
+                                <li> Functional Testing</li>
+                                <li> Linting</li>
+                                <li> Continious Integration</li>
+                    </ul>
+                </div>
+               
+               
+                </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Contact</h1>
+                    <h6>Let's work together</h6>
+                </div>
+                <form role="form">
+                    <div class="form-group row">
+                      <label for="name-input">Name:</label>
+                      <input class="form-control" id="name-input" type="text">
+                    </div>
+                    <div class="form-group row">
+                      <label for="email-input">Email:</label>
+                      <input class="form-control" id="email-input" type="email">
+                    </div>
+                    <label for="services">Services:</label>
+                    <select name="services" placeholder="" id="services" type ="services">
+                        <option value="">Web Design</option>
+                        <option value="">Front-End Development</option>
+                        <option value="">Back-End Development</option>
+                        <option value="">Employement Opportunity</option>
+                    </select>
+                    <div class="form-group row">
+                      <label for="comment-input">message</label>
+                      <textarea class="form-control" rows="5" id="comment-input"></textarea>
+                    </div>
+                    <br>
+                    <button class="btn btn-default" id="add-user" type="submit">Submit</button>
+                  </form>
+            </div>
+        </div>
+            </section>
 
-<body>
+            <footer class="copyright">
+                <div class="up" id="up">
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+                    <p>&copy; 2020 Jarez Howell</p>
+                
+            </footer>
+            <style>
+                #c {
+                   display: none;
+                   background-color: #91FF00;
+                   border: 1px solid #aaa;
+                   position: fixed;
+                   width: 250px;
+                   left: 50%;
+                   margin-left: -100px;
+                   padding: 6px 8px 8px;
+                   box-sizing: border-box;
+                   text-align: center;
+                }
+                #confirm button {
+                   background-color: #48E5DA;
+                   display: inline-block;
+                   border-radius: 5px;
+                   border: 1px solid #aaa;
+                   padding: 5px;
+                   text-align: center;
+                   width: 80px;
+                   cursor: pointer;
+                }
+                #confirm .message {
+                   text-align: left;
+                }
+             </style>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Jarez R Howell</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-        <!-- <a href="sticky-footer.html">Contact & Connect</a> -->
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/kids.jpg" class="auth-image" alt="Your Name">
-      <div class="column">
-      <p>My name is Jarez Howell, I'm married to a beautiful woman with four amazing children. 
-       I grew up in a house with eleven family members in my household including my great grandmother and grandfather.
-      <p> When I was growing up, I would watch every L.A Laker game with my uncles, before I went outside to shoot around for two hours even at night. I loved basketball ever since.
-       I was lucky enough to have an uncle that was in the computer field who's very smart and also gave me motivation to pursue a career in the software field, 
-      currently I attend a Web Development Bootcamp at the University of Chapel Hill which is a dream come true.</p>
-      </div>
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
+    
+    <script src="https://kit.fontawesome.com/c0bbc41b76.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-database.js"></script>
   
-  <!-- <script type="text/javascript" src="javascript/app.js"></script> -->
-</body>
+    <script src="main.js"></script>
 
+    </body>
 </html>
