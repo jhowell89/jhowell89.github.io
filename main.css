@@ -743,6 +743,9 @@ input[type="submit"] :hover {
     .about-heading h1 {
         font-size: 6rem;
     }
+    .skills {
+        margin-top: -1rem;
+    }
     .section-heading h1 {
         font-size: 3rem;
     }
