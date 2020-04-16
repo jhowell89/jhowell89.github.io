@@ -434,7 +434,7 @@ h1 {
     position: relative;
     padding: 5rem;
     list-style: none;
-    text-align: left;
+    text-align: center;
     width: 70%;
     margin-left: 16rem;
 }
@@ -449,6 +449,10 @@ h1 {
 .timeline li{
     font-size: 17px;
 
+}
+.timeline li::before{
+    color: rgb(228, 25, 194);
+    content: "\2022";
 }
 
 .timeline .date {
@@ -502,7 +506,7 @@ h1 {
     position: relative;
     padding: 5rem;
     list-style: none;
-    text-align: left;
+    text-align: center;
     width: 70%;
     margin-left: 16rem;
 }
@@ -681,7 +685,7 @@ input[type="submit"] :hover {
         font-size: 4.5rem;
     }
     .about-heading h1 {
-        font-size: 8rem;
+        font-size: 6rem;
     }
     .section-heading h1 {
         font-size: 3rem;
@@ -701,21 +705,29 @@ input[type="submit"] :hover {
     }
     .timeline ul {
         margin: 0 0 0 auto;
+        text-align: center;
+        position: relative;
     }
     .timeline .date::before{
-        left: -20rem;
+        left: -20rem;     
+        position: initial;
+        text-align: center;    
     }
     .timeline .date::after {
         left: -5.9rem;
     }
     .timelines ul {
-        margin: 0 0 0 auto;
+        margin: 9rem;
+        text-align: center;
     }
     .timelines .date::before{
         left: -20rem;
     }
     .timelines .date::after {
         left: -5.9rem;
+    }
+    form {
+        width: 65%;
     }
 
 }
@@ -770,4 +782,53 @@ input[type="submit"] :hover {
         right: 2rem;
     }
 
+}
+@media screen and (max-width: 300px) {
+    .timeline h1 {
+        font-size: 1.5rem;
+    }
+    .timelines h1 {
+        font-size: 1.5rem;
+    }
+    .timelines ul {
+        padding: 2rem;
+        margin-left: 4rem;
+    }
+    .timeline ul {
+        padding: 2rem;
+        margin-left: 4rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .timeline h1 {
+        font-size: 1.5rem;
+    }
+    .timelines h1 {
+        font-size: 1.5rem;
+    }
+    .timelines ul {
+        padding: 2rem;
+        margin-left: 4rem;
+    }
+    .timeline ul {
+        padding: 2rem;
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .timeline h1 {
+        font-size: 1.5rem;
+    }
+    .timelines h1 {
+        font-size: 1.5rem;
+    }
+    .timelines ul {
+        padding: 2rem;
+        margin-left: 4rem;
+    }
+    .timeline ul {
+        padding: 2rem;
+        margin-left: 4rem;
+    }
 }
