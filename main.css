@@ -337,6 +337,15 @@ li {
     text-align: center;
     padding: 2rem;
 }
+.my-skills{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
 .skill {
     display: flex;
     flex-direction: column;
@@ -364,6 +373,53 @@ li {
     margin: auto;
     transform: rotate(-45deg);
 }
+/*my-skill*/
+.my-skills{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+.my-skills{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-top: -5rem;
+}
+.skills h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+}
+.icon-container {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #ffe838;
+    background-color: #fd57bf;
+    margin-bottom: 2rem;
+    display: flex;
+    transform: rotate(45deg);
+}
+.icon-container i {
+    color: #ffe838;
+    font-size: 5rem;
+    margin: auto;
+    transform: rotate(-45deg);
+}
+/*end skill*/
 
  .portfolio-item {
     display: flex;
@@ -798,6 +854,9 @@ input[type="submit"] :hover {
         padding: 2rem;
         margin-left: 4rem;
     }
+    .skills {
+        margin-top: -1rem;
+    }
 }
 @media screen and (max-width: 375px) {
     .timeline h1 {
@@ -809,6 +868,9 @@ input[type="submit"] :hover {
     .timelines ul {
         padding: 2rem;
         margin-left: 4rem;
+    }
+    .skills {
+        margin-top: -1rem;
     }
     .timeline ul {
         padding: 2rem;
